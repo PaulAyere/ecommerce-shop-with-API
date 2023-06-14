@@ -11,7 +11,7 @@ function Navbar() {
   };
 
   return (
-    <nav className="bg-black p-4 flex items-center justify-between">
+    <nav className="bg-black p-4 flex items-center justify-between sticky top-0 z-50">
       <div className="flex items-center">
         <img src={logo} alt="Logo" className="h-10 ml-8" />
       </div>
